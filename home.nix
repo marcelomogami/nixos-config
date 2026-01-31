@@ -18,8 +18,10 @@
   # Configurações de programas (ex: Git)
   programs.git = {
     enable = true;
-    userName = "Marcelo MOgami";
-    userEmail = "marcelomogami@gmail.com";
+    settings = {
+      user.name = "Marcelo Mogami";
+      user.email = "marcelomogami@gmail.com";
+    };
   };
 
   # Deixe o Home Manager gerenciar a si mesmo
